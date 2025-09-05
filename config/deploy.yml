@@ -49,9 +49,8 @@ builder:
 #   shell: app exec --interactive --reuse "bash"
 
 # Use a different ssh user than root
-#
-# ssh:
-#   user: app
+ssh:
+  user: alex
 
 # Use a persistent storage volume.
 #
